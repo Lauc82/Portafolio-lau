@@ -1,0 +1,96 @@
+/* Este archivo de estilos afecta a la página del portafolio*/
+
+body{
+    background-color: #E6DACE;
+
+}
+
+
+
+
+/* Este selector afecta el div que contiene el titulo y la información*/ 
+
+#proyectos {
+    
+    margin: auto;
+    margin-top: -2%;
+    text-align: center;
+    width: 800px;
+}
+
+/* Los dos siguientes selectores afectan el titulo y la información individualmente*/
+
+h2 {
+    
+    color: #322F49;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+#info{
+    margin-top: -1%;
+    color: #322F49;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/* Div general que contienen las categorías del portafolio*/
+
+#contenido{
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8%;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Subtitulos */
+
+.sub{
+    color: #322F49;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Descripción */
+
+.desc{
+    font-size: 16px;
+    margin-top: -15px;
+    font-variant: 200;
+    margin-bottom: 20px;
+    
+}
+
+/* Cuando se posiciona el mouse encima de alguna imagen*/
+
+img:hover{
+    opacity: 60%;
+}
+
+/* Estilos de las categorías individuales del portafolio*/
+
+.categories {
+    margin-top: 5%;
+    background-color: #ffffff;
+    width: 272.5px;
+    text-align: center;
+    margin-right: 8%;
+    margin-bottom: 8%;
+
+}
+
+/* Cuando se posiciona el mouse encima de alguna categoría*/
+
+.categories:hover{
+    transform: scale(1.05);
+    transition: all 150ms;
+    
+}
+
+

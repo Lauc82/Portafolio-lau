@@ -1,0 +1,139 @@
+body{
+    background-color: #E6DACE;
+}
+
+/* Este selector afecta el div que contiene el titulo y la información*/ 
+
+#titulo {
+    margin: auto;
+    margin-top: -2%;
+    text-align: center;
+    width: 800px;
+    margin-bottom: 3%;
+}
+
+/* Los dos siguientes selectores afectan el titulo y la información individualmente*/
+
+h2 {
+    margin-bottom: 1.5%;
+    color: #322F49;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+}
+
+.info {
+    margin-top: auto;
+    color: #322F49;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    
+}
+
+
+/* Este selector afecta el formulario en general*/
+
+.formulario {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #322F49;
+    font-size: 16px;
+    width: 45%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6%;
+    padding: 5%;
+}
+
+/* Este selector afecta el "div" que contiene los campos de 'nombre' y 'apellido'*/
+
+#names{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    
+}
+
+/* Este selector afecta los "input" de los campos de 'nombre' y 'apellido'*/
+
+#names input{
+    width: 130%;
+    padding-bottom: 6%;
+}
+
+/* Estilos solo para el campo de nombre*/
+.nombre{
+    margin-right: 31%;
+    
+}
+
+/* Estilos solo para el campo de apellido*/
+.apellido {
+        padding-right: 10%;
+}
+
+/* Este selector afecta los "input" del formulario*/
+.form input{
+    background: none;
+    border: none;
+    border-bottom: solid 2px #707070;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #707070;
+    width: 100%;
+    margin-bottom: 10%;
+    padding-bottom: 2%;
+}
+
+/* Aquí solo se alteró la posición del formulario */
+.form {
+    margin-bottom: 1%;
+}
+
+/* Los sig tres selectores afectan el campo de mensaje*/
+#mensaje {
+    margin-bottom: 3%;
+}
+
+.mensaje{
+    padding-bottom: 3%;
+}
+::placeholder {
+    opacity: 80%;
+}
+
+/* Los sig tres selectores afectan al botón del formulario*/
+
+.buttom {
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 0.9%;
+    padding: 3% 8%;
+    
+    font-family: 'Poppins', sans-serif;
+    background-color: #322F49;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    border-radius: 70px;
+    margin-right: 1.2%;
+    cursor: pointer;
+
+}
+
+#buttom{
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttom:hover {
+    opacity: 90%;
+    transform: scale(1.05);
+    transition: all 150ms;
+}
+

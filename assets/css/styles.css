@@ -1,0 +1,73 @@
+/* Este archivo de estilos afecta a la página de inicio*/
+
+
+body div h2 {
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 76px;
+}
+
+#saludo{
+    margin-top: -26%;
+    width: 600px;
+}
+
+/* Descripción (Diseñadora gráfica) */
+
+#desinger{
+    margin-top: -50px;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+
+/* Infromación sobre el portafolio*/ 
+
+#info {
+    
+    width: 490px;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+}
+
+/* Aquí se encuentran los estilos del div que contiene la información y la imagen */
+
+.container {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 6%;
+}
+
+/*Aquí se encuentran los estilos de los botones (portafolio y contacto*/
+
+.buttoms{
+    margin-top: -4.5%;
+    margin-bottom: 9%;
+    margin-left: 7.5%;
+}
+
+.button {
+    text-decoration: none;
+    margin-left: 0.9%;
+    padding: 0.9% 2%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #322F49;
+    font-weight: 300;
+    font-size: 19px;
+    color: #ffffff;
+    border: none;
+    border-radius: 70px;
+    margin-right: 1.2%;
+
+}
+
+.button:hover {
+    opacity: 90%;
+}

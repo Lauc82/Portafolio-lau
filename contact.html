@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html class="sr" lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/ecdd53cf37.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="stylesheet" href="/assets/css/formstyles.css">
+        <script src="/assets/js/scrollreveal.js"></script>
+        <title>Contacto</title>
+    </head>
+    <body>
+        <header class="navbar">
+            <nav>
+                <a href="index.html"> Inicio </a>
+                <a href="/portfolio.html"> Portafolio </a>
+                <a href="about.html"> Sobre mí </a>
+                <a href="#" class="contacto"> Contacto </a>
+            </nav>
+        </header>
+
+        <!---- Título y descripción ---->
+
+        <div id="titulo">
+            <h2>¿Quieres trabajar conmigo?</h2>
+            <p class="info">Envíame un mensaje</p>
+        </div>
+
+        <!---- Formulario ---->
+
+        <div class="formulario">
+            <form action="./contact.html" method="get" class="form">
+
+                <!---- En este div se encuentran los campos de "nombre" y "apellido", los puse en un div aparte para que no estuvieran uno debajo del otro, y fue la única manera en que lo pude hacer ---->
+                <div id="names">
+                    <div class="nombre">
+                        <p>Nombre*</p>
+                        <input type="text" name="nombre" required>
+                    </div>
+                    <div class="apellido">
+                        <p>Apellido*</p>
+                        <input type="text" name="apellido" required>
+                    </div>
+                    
+                </div>
+                
+                <p>Correo*</p>
+                <input type="email" name="correo" required>
+                
+                <p>Asunto</p>
+                <input type="text" name="asunto">
+                
+                <p id="mensaje">Mensaje</p>
+                <input class="mensaje" type="text" name="mensaje" placeholder="Toca para escribir">
+                
+                <div id="buttom">
+
+                    <button class="buttom" type="submit">Enviar mensaje</button>
+            
+                </div>    
+            </form>
+        </div>
+
+        <!---- Pie de página ---->
+
+        <footer class="footer"> 
+            <p>© 2022 por Lauren Cruz</p>
+            <div>
+                <a target="_blank" href="mailto:cruzyuli082@yahoo.com" class="fa-solid fa-envelope"></a>
+                <a target="_blank" href="https://github.com/Lauc82" class="fa-brands fa-github"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/lauren-gadea-cruz" class="fa-brands fa-linkedin-in"></a>
+            </div>
+        </footer>
+    </body>
+
+    <script src="/assets/js/contact.js"></script>
+</html>

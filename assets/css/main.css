@@ -1,0 +1,99 @@
+/* Este archivo de estilos afecta el menú de navegación y el footer de todas las páginas*/
+
+/* La clase sr ha sido utilizada para que no haya problema con js a la hora de cargar la página de inicio*/
+
+
+html.sr{
+    visibility: hidden;
+}
+
+/* ----------- Body ---------- */
+
+body {
+    z-index: 2;
+    margin: 0px;
+    padding-top: 10%;  
+}
+
+/* ---------- Header ---------- */
+
+header {
+    z-index: 1;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffffff;
+    height: 100px;
+    width: 100%; 
+	left: 0;
+	top: 0; 
+	position: fixed;
+    
+}
+
+
+
+/* Los links que están dentro del header*/
+
+header a {
+    text-decoration: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+    margin: 0px 0px 0px 50px;
+    color: #707070;
+}
+
+/* Cuando se posiciona el mouse encima de algún link del menú de navegación*/
+
+header a:hover {
+
+    font-weight: 400;
+    color: #322F49;
+}
+
+/* ---------- Footer ---------- */
+
+footer{
+
+    width: auto;
+    padding: 0px 70px;
+    height: 110px;
+    bottom: 0px;
+    left: 0;
+	
+
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* El párrafo que está dentro del footer*/
+
+footer p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #707070;
+    font-size: 14px;
+}
+
+/* Los links que están dentro del footer*/
+
+footer a{
+    text-decoration: none;
+    margin: 0px 0px 0px 12px;
+    font-size: 25px;
+    color: #707070;
+}
+
+/* Cuando se posiciona el mouse encima de algún item que está en el footer*/ 
+
+footer a:hover {
+    transform: scale(1.05);
+    transition: all 150ms;
+    opacity: 50%;
+}
